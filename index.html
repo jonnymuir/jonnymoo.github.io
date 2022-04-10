@@ -1,219 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 <head>
+    <meta name="description" content="About Jonny Muir.">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700,400italic,500italic,700italic&display=swap" rel="stylesheet">
     <link rel="shortcut icon"
         href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAXVJREFUeNrslrFqAkEQhu9CasE6nV3qE/MC6wMoaBfSnRCS2iUPEM46InidtZA8gPsCCVjb2aUW8gT5yU8mm3VvIeau2+U4zrlxvn9mZ5ZLkyRLmlxnScMrAiLg/+vc/jGd3oxGyras12Y2W+FBqV5R3NM4Huv9/t0JlOfDPB/wudu99gPa7VaWXdoWY96OX0HHZPLoAGDsdC7E+XD48AC22x31YiEcVHuzRpZazyUE5Uv00B6gIFo/8QLs2JtGCJRqCBJ3G3n6JkMEJYtFci3LlxoArCEKgqJL9XHHtnuT/jMAUZiEUlcksT5l+VzbHHwDegjNWkG+dEc9ALbvF2AQkH/6JDMiAGx57/a6ALjavVw1BJKEDDOiexvUBRTF3Waz4MigMTi3xryGk0Doqur/mmTIZ77L5YN9TshR4e1XNBKaKiD/JwM44YSyw6EIONTCO9Hv32Lmwz6p81WBJATpuNpHWNXi3223NH62REAENA/4FGAAhemnRvldoiYAAAAASUVORK5CYII=" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Jonny Muir</title>
-    <style>
-        /* Page */
-        body {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 30px;
-            margin: 0;
-        }
-
-        /* Graphics */
-        svg {
-            background-color: #0b1411;
-            transition: height 0.3s cubic-bezier(0, 1, 1, 1);
-            overflow: hidden;
-        }
-
-        /* Articles (cv sections) */
-        article {
-            display: none;
-            width: 80%;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 50px;
-            text-align: center;
-        }
-
-        /* Typology */
-        h1,
-        h2,
-        h3 {
-            font-family: 'Ubuntu', sans-serif;
-        }
-
-        /* More specific stuff - mainly for animations */
-        #sun,
-        .planet {
-            transform-origin: center center;
-            transition: transform 0.3s cubic-bezier(0, 1, 1, 1);
-        }
-
-        /* 300ms bezier timed animations */
-        .sneak-out, #header, .initial {
-            transition: transform 0.3s cubic-bezier(0, 1, 1, 1);
-        }
-
-        #sun-circle {
-            transition: r 10s cubic-bezier(0, 1, 1, 1);
-        }
-
-        #sun:hover {
-            cursor: pointer;
-        }
-
-        .planet text {
-            opacity: 0;
-            transition: opacity 1s cubic-bezier(0, 1, 1, 1);
-            transition-delay: 1s;
-            text-shadow: 2px 2px 0px black;
-        }
-
-        .planet.sneak-out text,
-        .planet.header text {
-            opacity: 1;
-        }
-
-        .planet,
-        .close {
-            cursor: pointer;
-        }
-
-        #sun-shadow.initial {
-            transform: translate(-63px, 25px);
-        }
-
-        #sun.enlarge #sun-circle {
-            r: 77;
-        }
-
-        #sun.enlarge text {
-            fill: #28476e;
-        }        
-
-
-
-        /* Small screen overrides < 960px */
-        @media (max-width: 959px) {
-
-            body {
-                font-size: 24px;
-            }
-
-            article {
-                text-align: left;
-                width: 100%;
-                margin-left: 10px;
-                margin-right: 10px;
-            }
-
-            /* Line up all graphics vertically */
-            circle {
-                transform: translate(0);
-            }
-
-            /* All the sneak out - translates are animated to their destinations */
-            #sun-shadow.sneak-out {
-                transform: translate(16px,25px);
-            }
-
-            #sun.sneak-out {
-                transform: translate(79px,0px);
-            }
-
-            #planet1.sneak-out {
-                transform: translate(-50px, 130px);
-            }
-            #planet2.sneak-out {
-                transform: translate(50px, 190px);
-            }
-            #planet3.sneak-out {
-                transform: translate(-50px, 250px);
-            }
-            #planet4.sneak-out {
-                transform: translate(50px, 310px);
-            }
-            #planet5.sneak-out {
-                transform: translate(-50px, 370px);
-            }
-            #planet6.sneak-out {
-                transform: translate(50px, 430px);
-            }
-            #planet7.sneak-out {
-                transform: translate(-50px, 490px);
-            }
-            #planet8.sneak-out {
-                transform: translate(50px, 550px);
-            }
-            #planet9.sneak-out {
-                transform: translate(-50px, 610px);
-            }
-            #planet10.sneak-out {
-                transform: translate(50px, 670px);
-            }
-            #planet11.sneak-out {
-                transform: translate(-50px, 730px);
-            }
-
-            /* Header position (if planet is selected) */
-            .header {
-                transform: translate(-50px,34px);
-            }
-        }
-
-        /* Larger screen overrides >= 960 */
-        @media (min-width: 960px)
-        {
-            /* All the sneak out - translates are animated to their destinations */
-            #sun-shadow.sneak-out {
-                transform: translate(16px,25px);
-            }
-
-            #sun.sneak-out {
-                transform: translate(79px,0px);
-            }
-
-            #planet1.sneak-out {
-                transform: translate(-220px, 34px);
-            }
-
-            #planet2.sneak-out {
-                transform: translate(-228px, 136px);
-            }
-            #planet3.sneak-out {
-                transform: translate(-195px, 245px);
-            }
-            #planet4.sneak-out {
-                transform: translate(-128px, 332px);
-            }
-            #planet5.sneak-out {
-                transform: translate(-33px, 390px);
-            }
-            #planet6.sneak-out {
-                transform: translate(80px, 412px);
-            }
-            #planet7.sneak-out {
-                transform: translate(193px, 390px);
-            }
-            #planet8.sneak-out {
-                transform: translate(287px, 332px);
-            }
-            #planet9.sneak-out {
-                transform: translate(355px, 245px);
-            }
-            #planet10.sneak-out {
-                transform: translate(388px, 136px);
-            }
-            #planet11.sneak-out {
-                transform: translate(379px, 23px);
-            }
-
-            /* Header position (if planet is selected) */
-            .header {
-                transform: translate(-220px,34px);
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -243,61 +40,61 @@
             stroke-opacity="0.3"></circle>
         <circle cx="50%" cy="53" r="60" stroke="#8da00f" stroke-width="2" fill="none" transform="translate(365,0)"
             stroke-opacity="0.6"></circle>
-        <a id="planet1" class="planet">
-            <circle cx="50%" cy="40" r="41" fill="#28476e" />
+        <a id="planet1" href="#planet1-article" class="planet">
+                <circle cx="50%" cy="40" r="41" fill="#28476e" />
             <circle cx="50%" cy="40" r="31" fill="#df3e3c" />
             <text x="50%" y="45" text-anchor="middle" fill="white">
                 Who
             </text>
-        </a><a id="planet2" class="planet">
+        </a><a id="planet2" href="#planet2-article" class="planet">
             <circle cx="50%" cy="40" r="41" fill="#28476e" />
             <circle cx="50%" cy="40" r="31" fill="#df3e3c" /><text x="50%" y="45" text-anchor="middle" fill="white">
                 What
             </text>
-        </a><a id="planet3" class="planet">
+        </a><a id="planet3" href="#planet3-article" class="planet">
             <circle cx="50%" cy="40" r="41" fill="#28476e" />
             <circle cx="50%" cy="40" r="31" fill="#df3e3c" />
             <text x="50%" y="45" text-anchor="middle" fill="white">
                 Achievements
             </text>
-        </a><a id="planet4" class="planet">
+        </a><a id="planet4" href="#planet4-article" class="planet">
             <circle cx="50%" cy="40" r="41" fill="#28476e" />
             <circle cx="50%" cy="40" r="31" fill="#df3e3c" />
             <text x="50%" y="45" text-anchor="middle" fill="white">
                 Recent projects
             </text>
-        </a><a id="planet5" class="planet">
+        </a><a id="planet5" href="#planet5-article" class="planet">
             <circle cx="50%" cy="40" r="41" fill="#28476e" />
             <circle cx="50%" cy="40" r="31" fill="#df3e3c" />
             <text x="50%" y="45" text-anchor="middle" fill="white">
                 Upcoming
             </text>
-        </a><a id="planet6" class="planet">
+        </a><a id="planet6" href="#planet6-article" class="planet">
             <circle cx="50%" cy="40" r="41" fill="#28476e" />
             <circle cx="50%" cy="40" r="31" fill="#df3e3c" /><text x="50%" y="45" text-anchor="middle"
                 fill="white">@</text>
-        </a><a id="planet7" class="planet">
+        </a><a id="planet7" href="#planet7-article" class="planet">
             <circle cx="50%" cy="40" r="41" fill="#28476e" />
             <circle cx="50%" cy="40" r="31" fill="#df3e3c" /><text x="50%" y="45" text-anchor="middle"
                 fill="white">employment</text>
-        </a><a id="planet8" class="planet">
+        </a><a id="planet8" href="#planet8-article" class="planet">
             <circle cx="50%" cy="40" r="41" fill="#28476e" />
             <circle cx="50%" cy="40" r="31" fill="#df3e3c" /><text x="50%" y="45" text-anchor="middle"
                 fill="white">influences</text>
-        </a><a id="planet9" class="planet">
+        </a><a id="planet9" href="#planet9-article" class="planet">
             <circle cx="50%" cy="40" r="41" fill="#28476e" />
             <circle cx="50%" cy="40" r="31" fill="#df3e3c" /><text x="50%" y="45" text-anchor="middle"
                 fill="white">hobbies</text>
-        </a><a id="planet10" class="planet">
+        </a><a id="planet10" href="#planet10-article" class="planet">
             <circle cx="50%" cy="40" r="41" fill="#28476e" />
             <circle cx="50%" cy="40" r="31" fill="#df3e3c" /><text x="50%" y="45" text-anchor="middle"
                 fill="white">education</text>
-        </a><a id="planet11" class="planet">
+        </a><a id="planet11" href="#planet11-article" class="planet">
             <circle cx="50%" cy="40" r="41" fill="#28476e" />
             <circle cx="50%" cy="40" r="31" fill="#df3e3c" /><text x="50%" y="45" text-anchor="middle"
                 fill="white">contact me</text>
         </a>
-        <circle id="sun-shadow" class="moo" cx="50%" cy="40" r="55" stroke="#7a9b93" stroke-width="1" fill="#5d7670" />
+        <circle id="sun-shadow" cx="50%" cy="40" r="55" stroke="#7a9b93" stroke-width="1" fill="#5d7670" />
         <a id="sun">
             <circle id="sun-circle" cx="50%" cy="40" r="70" fill="#ebead6" /><text x="50%" y="45" text-anchor="middle"
                 fill="black">Jonny</text>
@@ -358,123 +155,5 @@
         <a class="close">[CLOSE]</a>
     </article>
     </body>
-    <script>
-        var planetClicked = false,
-            currentId = "",
-            initialPlanet = null,
-            ignoreHistory = true;
-
-        String.prototype.endsWith = function (suffix) {
-            return this.indexOf(suffix, this.length - suffix.length) !== -1;
-        };
-
-        // When the sun is clicked - reveal the planets
-        document.getElementById("sun").addEventListener("click", function () {
-            reveal(100);
-        }, false);
-
-        function reveal(timeout) {
-            // Animate all the planets out
-            function revealPlanets(planetIndex) {
-                setTimeout(function () {
-                    document.getElementById("planet" + (planetIndex + 1)).classList.add('sneak-out');
-                }, (planetIndex) * timeout);
-
-                if (planetIndex > 0) {
-                    revealPlanets(planetIndex - 1);
-                }
-            }
-
-            revealPlanets(10);
-
-            // Animate sun and shadow to move after everything else has finished
-            setTimeout(()=>{
-                document.getElementById("sun-shadow").classList.add('sneak-out');
-                document.getElementById("sun").classList.add('sneak-out');
-            }, timeout * 10);
-        }
-
-        // If location ends with moo - we are probably coming back to this page and want a planet activated
-        if (window.location.hash.endsWith("moo")) {
-            document.querySelectorAll(".planet").forEach(planet => { planet.classList.add('sneak-out') })
-            let initialPlanetId = window.location.hash.substring(1, window.location.hash.length - 3);
-            let initialPlanet = document.getElementById(initialPlanetId);
-            if(initialPlanet) {
-                activatePlanet.apply(initialPlanet);
-            }
-        }
-
-        // When a planet is clicked - show the article
-        document.querySelectorAll(".planet, .close").forEach(element => element.addEventListener("click",function () {
-            activatePlanet.apply(element);
-        }));
-
-        function activatePlanet() {
-            if (!planetClicked) {
-                currentId = this.getAttribute("id");
-                // Hide stuff
-                document.querySelectorAll(".planet, #sun, #sun-shadow").forEach(element => element.style.display = 'none');
-                // Show the right planet + info
-                this.style.display = '';
-                document.getElementById(currentId + "-article").style.display = 'block';
-                // Animate it in
-                document.getElementById(currentId).classList.remove('sneak-out');
-                document.getElementById(currentId).classList.add('header');
-
-                document.querySelector("svg").setAttribute('height','130px');
-                // Sort out the url
-                setLocation("#" + currentId + "moo");
-                planetClicked = true;
-                // Make sure we are at the top
-                window.scrollTo(0, 0);
-            } else {
-                hideCurrentArticle();
-            }
-        }
-
-        // Simple set location on url hash - make sure we don't retrigger a history
-        function setLocation(hash) {
-            ignoreHistory = true;
-            window.location = hash;
-            ignoreHistory = false;
-        }
-
-        // Hide the current article
-        function hideCurrentArticle() {
-            if (planetClicked) {
-                // Show all planets and the sun
-                document.querySelectorAll(".planet, #sun, #sun-shadow").forEach(element => element.style.display = '');
-                // Hide the article
-                document.getElementById(currentId + "-article").style.display = 'none';
-                document.querySelector("svg").setAttribute('height','1800px');
-                document.getElementById(currentId).classList.remove('header');
-                document.getElementById(currentId).classList.add('sneak-out');
-                reveal(0);
-                setLocation("#");
-                planetClicked = false;
-            }
-        }
-
-        // Respond to browser history (back button) - All we have to do is work out if we are hidding an article
-        window.onpopstate = function (event) {
-            if (!ignoreHistory && (window.location.hash === "#" || window.location.hash === "")) {
-                hideCurrentArticle();
-            }
-        };
-
-        // Hovering animations
-        document.getElementById("sun").addEventListener("mouseover",()=> {
-            document.getElementById("sun").classList.add("enlarge");
-        });
-        document.getElementById("sun").addEventListener("mouseout",()=>  {
-            document.getElementById("sun").classList.remove("enlarge")
-        });
-
-
-        // Sneak out the shadow	
-        document.getElementById("sun-shadow").classList.add("initial");
-
-        // Allow triggering of history
-        ignoreHistory = false;
-    </script>
+    <script src="index.js"></script>
 </html>

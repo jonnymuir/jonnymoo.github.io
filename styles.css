@@ -1,0 +1,202 @@
+/* Page */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin: 0;
+}
+
+/* Graphics */
+svg {
+  background-color: #0b1411ed;
+  transition: height 0.3s cubic-bezier(0, 1, 1, 1);
+  overflow: hidden;
+}
+
+/* Articles (cv sections) */
+article {
+  display: none;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* Typology */
+h1,
+h2,
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* More specific stuff - mainly for animations */
+#sun,
+.planet {
+  transform-origin: center center;
+  transition: transform 0.3s cubic-bezier(0, 1, 1, 1);
+}
+
+/* 300ms bezier timed animations */
+.sneak-out, #header, .initial {
+  transition: transform 0.3s cubic-bezier(0, 1, 1, 1);
+}
+
+#sun-circle {
+  transition: r 10s cubic-bezier(0, 1, 1, 1);
+}
+
+#sun:hover {
+  cursor: pointer;
+}
+
+.planet text {
+  opacity: 0;
+  transition: opacity 1s cubic-bezier(0, 1, 1, 1);
+  transition-delay: 1s;
+  text-shadow: 2px 2px 0px black;
+}
+
+.planet.sneak-out text,
+.planet.header text {
+  opacity: 1;
+}
+
+.planet,
+.close {
+  cursor: pointer;
+}
+
+#sun-shadow.initial {
+  transform: translate(-63px, 25px);
+}
+
+#sun.enlarge #sun-circle {
+  r: 77;
+}
+
+#sun.enlarge text {
+  fill: #28476e;
+}        
+
+
+
+/* Small screen overrides < 960px */
+@media (max-width: 959px) {
+
+  body {
+      font-size: 24px;
+  }
+
+  article {
+      text-align: left;
+      width: 100%;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  /* Line up all graphics vertically */
+  circle {
+      transform: translate(0);
+  }
+
+  /* All the sneak out - translates are animated to their destinations */
+  #sun-shadow.sneak-out {
+      transform: translate(16px,25px);
+  }
+
+  #sun.sneak-out {
+      transform: translate(79px,0px);
+  }
+
+  #planet1.sneak-out {
+      transform: translate(-50px, 130px);
+  }
+  #planet2.sneak-out {
+      transform: translate(50px, 190px);
+  }
+  #planet3.sneak-out {
+      transform: translate(-50px, 250px);
+  }
+  #planet4.sneak-out {
+      transform: translate(50px, 310px);
+  }
+  #planet5.sneak-out {
+      transform: translate(-50px, 370px);
+  }
+  #planet6.sneak-out {
+      transform: translate(50px, 430px);
+  }
+  #planet7.sneak-out {
+      transform: translate(-50px, 490px);
+  }
+  #planet8.sneak-out {
+      transform: translate(50px, 550px);
+  }
+  #planet9.sneak-out {
+      transform: translate(-50px, 610px);
+  }
+  #planet10.sneak-out {
+      transform: translate(50px, 670px);
+  }
+  #planet11.sneak-out {
+      transform: translate(-50px, 730px);
+  }
+
+  /* Header position (if planet is selected) */
+  .header {
+      transform: translate(-50px,34px);
+  }
+}
+
+/* Larger screen overrides >= 960 */
+@media (min-width: 960px)
+{
+  /* All the sneak out - translates are animated to their destinations */
+  #sun-shadow.sneak-out {
+      transform: translate(16px,25px);
+  }
+
+  #sun.sneak-out {
+      transform: translate(79px,0px);
+  }
+
+  #planet1.sneak-out {
+      transform: translate(-220px, 34px);
+  }
+
+  #planet2.sneak-out {
+      transform: translate(-228px, 136px);
+  }
+  #planet3.sneak-out {
+      transform: translate(-195px, 245px);
+  }
+  #planet4.sneak-out {
+      transform: translate(-128px, 332px);
+  }
+  #planet5.sneak-out {
+      transform: translate(-33px, 390px);
+  }
+  #planet6.sneak-out {
+      transform: translate(82px, 413px);
+  }
+  #planet7.sneak-out {
+      transform: translate(193px, 390px);
+  }
+  #planet8.sneak-out {
+      transform: translate(287px, 332px);
+  }
+  #planet9.sneak-out {
+      transform: translate(355px, 245px);
+  }
+  #planet10.sneak-out {
+      transform: translate(388px, 136px);
+  }
+  #planet11.sneak-out {
+      transform: translate(379px, 23px);
+  }
+
+  /* Header position (if planet is selected) */
+  .header {
+      transform: translate(-220px,34px);
+  }
+}
