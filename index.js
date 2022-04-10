@@ -2,7 +2,6 @@
 (() => {
   var planetClicked = false,
     currentId = "",
-    initialPlanet = null,
     ignoreHistory = true;
 
   // When the sun is clicked - reveal the planets
