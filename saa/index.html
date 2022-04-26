@@ -10,18 +10,31 @@
         window.alert(`Hello ${name}!`);
       }
     </script>
+    <style type="text/css" media="screen">
+    #editor { 
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    </style>
   </head>
   <body onload="brython()">
-    <textarea id="pythonEdit" name="pythonEdit" rows="4" cols="50">
+    <div id="editor">
       from browser import window
       window.myMessageBox("Moo")
-    </textarea>
+    </div>
     <button onclick="runPython()">Run</button>
+    <script src="/ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
     <script>
-      function runPython() {
-        let py = document.getElementById("pythonEdit").value
-        eval(__BRYTHON__.python_to_js(py));
-      }
+      var editor = ace.edit("editor");
+      editor.setTheme("ace/theme/monokai");
+      editor.session.setMode("ace/mode/python");
+        function runPython() {
+          let py = editor.getValue();
+          eval(__BRYTHON__.python_to_js(py));
+        }
     </script>
   </body>
 </html>
