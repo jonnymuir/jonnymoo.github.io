@@ -12,9 +12,13 @@
     </script>
   </head>
   <body onload="brython()">
+    <textarea id="pythonEdit" name="pythonEdit" rows="4" cols="50">
+      from browser import window
+      window.myMessageBox("Moo")
+    </textarea>
     <script type="text/python">
       from browser import window
-      window.myMessageBox("Jon")
+      window.myMessageBox("Moo")
     </script>
   </body>
 </html>
