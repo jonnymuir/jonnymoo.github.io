@@ -25,6 +25,7 @@ window.myMessageBox("Moo")
     <button onclick="runPython()">Run</button>
     <script src="https://pagecdn.io/lib/ace/1.4.14/ace.min.js" crossorigin="anonymous" integrity="sha256-lHff7sYmofr9GsfmfNbPsMy6XbG8HoG0/zJvtovyCMU=" ></script>
     <script>
+      ace.config.set('basePath', 'https://pagecdn.io/lib/ace/1.4.14/')
       var editor = ace.edit("editor");
       editor.setTheme("ace/theme/monokai");
       editor.session.setMode("ace/mode/python");
