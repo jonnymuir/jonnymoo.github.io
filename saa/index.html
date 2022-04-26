@@ -16,9 +16,12 @@
       from browser import window
       window.myMessageBox("Moo")
     </textarea>
-    <script type="text/python">
-      from browser import window
-      window.myMessageBox("Moo")
+    <button onclick="runPython">Run</button>
+    <script>
+      function runPython() {
+        let py = document.getElementById("pythonEdit").value
+        eval(__BRYTHON__.python_to_js(py));
+      }
     </script>
   </body>
 </html>
