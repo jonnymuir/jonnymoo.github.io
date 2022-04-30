@@ -1,5 +1,6 @@
 ---
 layout: post
+image: new
 ---
 Most good things are built on the greatness of others. I'm starting this as my own diary. It is partly aide memoir, partly as a reflective learning exercise.
 
