@@ -3,12 +3,7 @@ layout: default
 image: dab
 ---
 
-<h1>Anyone from the age of seven to seventeen can visit our Dojo and learn how to code, build websites, apps, or games and explore technology in a laid-back, creative, fun and social environment.</h1>
-
-Bradford CoderDojo is set up and run by [our volunteer mentors](/mentors/).
-
-CoderDojo has just one rule - **Above All: Be Cool**. Come join us for the next event by registering your interest below.
-
+<h1>Jonny Muir's stuff</h1>
 
 <div class="splash-event">
 	<div class="event-title">Find us</div>
