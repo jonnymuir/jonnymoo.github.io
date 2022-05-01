@@ -21,7 +21,9 @@ Why does it matter?
 
 Why might it happen?
 - Disconnected people and work
-- Good intentioned, but poorly directed leadership (asking the wrong think of people)
+- Good intentioned, but poorly directed leadership
+  - Asking the wrong thing of people
+  - Ineffective support systems
 
 Pitfalls:
 - Mistaking lack of direct industry as lack of value. Think about knowledge work and negative capability.
