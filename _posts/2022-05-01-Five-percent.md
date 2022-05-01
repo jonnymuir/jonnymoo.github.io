@@ -3,7 +3,7 @@ layout: post
 image: keats
 title: 5%
 ---
-The percentage of our teams' working day that can attributed directly to things that are of value to end users.
+The percentage of our teams' working day that can be attributed directly to things that are of value to end users.
 
 What is "of value" and how is it measured?
 
