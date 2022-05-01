@@ -3,7 +3,8 @@ layout: post
 image: keats
 title: 5%
 ---
-Five. The percentage of our teams working day that can attributed directly to things that are of value to end users.
+# Five. 
+The percentage of our teams working day that can attributed directly to things that are of value to end users.
 
 What is "of value" and how is it measured?
 
@@ -30,3 +31,4 @@ Pitfalls:
 - Unintended impact of measurement and controls. Understand systems and systems thinking.
 
 
+# Research
