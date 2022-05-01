@@ -21,7 +21,7 @@ Why does it matter?
 
 Why might it happen?
 - Disconnected people and work
-- Good intentioned, but poorly directed leadership (itself a waste of good leader's time)
+- Good intentioned, but poorly directed leadership (itself a waste of a leader's time)
   - Asking the wrong thing of people
   - Ineffective support systems
 
