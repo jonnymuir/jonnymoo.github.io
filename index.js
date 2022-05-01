@@ -105,4 +105,8 @@
 
   // Allow triggering of history
   ignoreHistory = false;
+
+  // Get the planets out
+  setTimeout(()=>reveal(100),100);
+  
 })();
