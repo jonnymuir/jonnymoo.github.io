@@ -1,11 +1,11 @@
 ---
 layout: python
 title: Hello Computer
+InitialCode: |
+  print("hello stinky")
+  print("more stinky")
+SuccessOutput: Sir stinkalot is really Jonny
 ---
-{% capture InitialCode %}
-print("hello stinky")
-{% endcapture %}
-
 Hi Alban, welcome to the world of programming. If you are not Alban, whenever you read the word Alban replace it with Penny. Sometimes I will instead address these lessons to Penny. In this situation if you are not Penny, replace it Alban.
 
 If you are neither Alban or Penny then we have a problem, especially if you are an evil robot.
