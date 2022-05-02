@@ -1,8 +1,11 @@
 ---
 layout: python
 title: Hello Computer
-
 ---
+{% capture InitialCode %}
+print("hello stinky")
+{% endcapture %}
+
 Hi Alban, welcome to the world of programming. If you are not Alban, whenever you read the word Alban replace it with Penny. Sometimes I will instead address these lessons to Penny. In this situation if you are not Penny, replace it Alban.
 
 If you are neither Alban or Penny then we have a problem, especially if you are an evil robot.
@@ -26,7 +29,7 @@ A run button.
 
 ## What to do
 
-I have already, with the power of coding, created a program which waits for you to press the run button, then takes the code from the code editor, passes it to a Python interpreter, executes the run-able stuff it produces via the browser, right there in your computer box next to you (if you are at your gaming rig). 
+I have already, with the power of coding, created a program which waits for you to press the run button, then takes the code from the code editor, passes it to a Python interpreter and executes the run-able stuff it produces via the browser, right there in your computer box next to you (if you are at your gaming rig). 
 
 Any "output" will be put in the "output" console. Output could be the Python interpreter telling you it hasn't a clue what you wanted it to do or what we will call "standard output".
 

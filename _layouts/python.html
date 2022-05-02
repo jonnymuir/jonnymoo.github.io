@@ -26,7 +26,7 @@ editor.setOptions({
   'enableLiveAutocompletion': True,
   'highlightActiveLine': False,
   'highlightSelectedWord': True,
-  'fontSize': '18pt'
+  'fontSize': '18px'
 })
 
 class cOutput:
@@ -76,7 +76,7 @@ document['run'].bind('click',lambda *args: run())
   <div id="buttons">
     <button id="run">Run</button>
   </div>
-  <div id="contents"><div id="editor">print("hello")
+  <div id="contents"><div id="editor">{{ InitialCode }}
     </div><div id="consoleContainer">
       <textarea id="console" autocomplete="off"></textarea>
     </div>
