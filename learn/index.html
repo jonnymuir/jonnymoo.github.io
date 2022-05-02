@@ -7,7 +7,7 @@ image: python
 <div class="article_wrap">
 {% for lesson in site.lessons %}
 <article>
-    <a class="post-title" href="{{ post.url }}">{{ lesson.title }}</a>
+    <a class="post-title" href="{{ lesson.url }}">{{ lesson.title }}</a>
     {{ lesson.excerpt | markdownify }} 
     {% capture content_words %} 
       {{ lesson.content | number_of_words }} 
@@ -15,9 +15,7 @@ image: python
     {% capture excerpt_words %} 
       {{ lesson.excerpt | number_of_words }} 
     {% endcapture %} 
-    {% if excerpt_words != content_words %}
-    <time datetime="{{ lesson.date | date_to_xmlschema }}">{{ post.lesson | date: "%b %-d, %Y" }}</time><a class="post-more" href="{{ lesson.url }}">Read more</a>
-    {% endif %}
+    <time datetime="{{ lesson.date | date_to_xmlschema }}">{{ post.lesson | date: "%b %-d, %Y" }}</time><a class="post-more" href="{{ lesson.url }}">Teach me</a>
 </article>
 {% endfor %} 
 </div>
