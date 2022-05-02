@@ -11,4 +11,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-
+collections:
+  lessons:
+    output: true

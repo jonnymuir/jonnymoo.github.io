@@ -1,0 +1,23 @@
+---
+layout: default
+title: Super Auto Albans
+image: mice-1500x500
+---
+
+<div class="article_wrap">
+{% for lesson in site.lessons %}
+<article>
+    <a class="post-title" href="{{ post.url }}">{{ lesson.title }}</a>
+    {{ lesson.excerpt | markdownify }} 
+    {% capture content_words %} 
+      {{ lesson.content | number_of_words }} 
+    {% endcapture %} 
+    {% capture excerpt_words %} 
+      {{ lesson.excerpt | number_of_words }} 
+    {% endcapture %} 
+    {% if excerpt_words != content_words %}
+    <time datetime="{{ lesson.date | date_to_xmlschema }}">{{ post.lesson | date: "%b %-d, %Y" }}</time><a class="post-more" href="{{ lesson.url }}">Read more</a>
+    {% endif %}
+</article>
+{% endfor %} 
+</div>
