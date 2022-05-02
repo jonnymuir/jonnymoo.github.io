@@ -177,6 +177,13 @@ h2, h3, h4, h5 {
     font-size: 1em;
 }
 
+/* Buttons */
+button {
+  font-size: 20px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
 /* Balance */
 code,
 pre {
@@ -275,19 +282,6 @@ nav ul li.logo {
  .touch .touch-hidden {
      display: none;
  }
-
-/* Mentors page */
-img[alt^="Picture of"] {
-	display:inline-block;
-	vertical-align:middle;
-}
-
-span.mentor-text {
-    display: inline-block;
-    vertical-align: middle;
-    width: 80%;
-    padding-left: 2em;
-}
 
 /* Blog list */
 article {
