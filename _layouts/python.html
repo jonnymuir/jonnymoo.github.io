@@ -1,0 +1,92 @@
+---
+layout: default
+---
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<div class="post">
+  {{ content }}
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.9.0/brython.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.9.0/brython_stdlib.js"></script>
+<script type="text/python3">
+import sys
+import time
+import binascii
+
+import tb as traceback
+import javascript
+
+from browser import console, document, window, alert, bind, html
+
+editor = window.ace.edit("editor")
+editor.setTheme("ace/theme/solarized_light")
+editor.session.setMode("ace/mode/python")
+editor.focus()
+
+editor.setOptions({
+  'enableLiveAutocompletion': True,
+  'highlightActiveLine': False,
+  'highlightSelectedWord': True
+})
+
+class cOutput:
+    encoding = 'utf-8'
+
+    def __init__(self):
+        self.cons = document["console"]
+        self.buf = ''
+
+    def write(self, data):
+        self.buf += str(data)
+
+    def flush(self):
+        self.cons.value += self.buf
+        self.buf = ''
+
+    def __len__(self):
+        return len(self.buf)
+
+if "console" in document:
+    cOut = cOutput()
+    sys.stdout = cOut
+    sys.stderr = cOut
+
+def run(*args):
+    global output
+    document["console"].value = ''
+    src = editor.getValue()
+
+    t0 = time.perf_counter()
+    try:
+        ns = {'__name__':'__main__'}
+        exec(src, ns)
+        state = 1
+    except Exception as exc:
+        traceback.print_exc(file=sys.stderr)
+        state = 0
+    sys.stdout.flush()
+    output = document["console"].value
+
+    print('<completed in %6.2f ms>' % ((time.perf_counter() - t0) * 1000.0))
+    return state
+
+document['run'].bind('click',lambda *args: run())
+</script>
+<div class="python-console">
+  <div id="buttons">
+    <button id="run">Run</button>
+  </div>
+  <div id="contents"><div id="editor">print("hello")
+    </div><div id="consoleContainer">
+      <textarea id="console" autocomplete="off"></textarea>
+    </div>
+  </div>
+</div>
+    
+<script src="https://pagecdn.io/lib/ace/1.4.14/ace.min.js" crossorigin="anonymous" integrity="sha256-lHff7sYmofr9GsfmfNbPsMy6XbG8HoG0/zJvtovyCMU=" ></script>
+<script src="https://pagecdn.io/lib/ace/1.4.14/ext-language_tools.min.js" crossorigin="anonymous"></script>
+<script>
+  ace.config.set('basePath', 'https://pagecdn.io/lib/ace/1.4.14/')
+</script>
+
