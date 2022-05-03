@@ -37,6 +37,21 @@ I want you to program it to say, "Sir stinkalot is really Jonny" - Just like tha
 
 When you are done - email me a screenshot as proof of your greatness to jonnypmuir@gmail.com
 
+<script>
+let console = document.getElementById('console');
+console.addEventListener('input', function() {
+  if(console.value.toLower().indexOf('sir stinkalot is really jonny') !== -1 ) {
+    document.getElementById('successImage').style.display = 'block';
+  }
+  else
+  {
+    document.getElementById('successImage').style.display = 'none';
+  }
+});
+</script>
+
+<img id='successImage' src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.herocollector.com%2Fen-gb%2FArticle%2Fspaced-20&psig=AOvVaw0cMJKVd1KefzcPC0soxE_q&ust=1651689710980000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCODrr-b9w_cCFQAAAAAdAAAAABAD" alt="Success" style="display: none;" />
+
 
 
 
