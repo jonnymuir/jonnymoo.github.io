@@ -80,7 +80,7 @@ def run(*args):
     sys.stdout.flush()
     output = document["console"].value
 
-    if("""{{ page.SuccessOutput }}""".lower() in value.lower()):
+    if("""{{ page.SuccessOutput }}""".lower() in output.lower()):
       document["successImage"].style.display = "block"
     else:
       document["successImage"].style.display = "none"
