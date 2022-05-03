@@ -80,6 +80,7 @@ def run(*args):
     sys.stdout.flush()
     output = document["console"].value
 
+    # Check if the output is successful
     if("""{{ page.SuccessOutput }}""".lower() in output.lower()):
       document["successImage"].style.display = "block"
     else:
@@ -95,7 +96,7 @@ document['run'].bind('click',lambda *args: run())
   <div id="buttons">
     <button id="run">Run</button>
   </div>
-  <img id='successImage' src="/assets/success.jpg" alt="Success" style="display: none;" />
+  <img id='successImage' src="/assets/success.jpg" alt="Success" style="display: none; height: 100px; margin-bottom: 15px; " />
   <div id="contents"><div id="editor">{{ page.InitialCode }}
     </div><div id="consoleContainer">
       <textarea id="console" autocomplete="off"></textarea>
