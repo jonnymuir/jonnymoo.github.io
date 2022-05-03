@@ -59,7 +59,7 @@ if "py_src {{ page.url }}" in storage:
   editor.value = storage["py_src {{ page.url }}"]
 
 # And store it when the editor changes
-def save():
+def save(*args):
   storage["py_src {{ page.url }}"] = editor.value
 editor.getSession().on('change', save)
 
