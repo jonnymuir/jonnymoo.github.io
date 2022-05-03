@@ -80,6 +80,11 @@ def run(*args):
     sys.stdout.flush()
     output = document["console"].value
 
+    if("""{{ page.SuccessOutput }}""".lower() in value.lower()):
+      document["successImage"].style.display = "block"
+    else:
+      document["successImage"].style.display = "none"
+      
     print('<completed in %6.2f ms>' % ((time.perf_counter() - t0) * 1000.0))
     return state
 
@@ -97,18 +102,6 @@ document['run'].bind('click',lambda *args: run())
     </div>
   </div>
 </div>
-<script>
-  let console = document.getElementById('console');
-  console.addEventListener('input', function() {
-    if(console.value.toLower().indexOf('sir stinkalot is really jonny') !== -1 ) {
-      document.getElementById('successImage').style.display = 'block';
-    }
-    else
-    {
-      document.getElementById('successImage').style.display = 'none';
-    }
-  });
-</script>
 <script src="https://pagecdn.io/lib/ace/1.4.14/ace.min.js" crossorigin="anonymous" integrity="sha256-lHff7sYmofr9GsfmfNbPsMy6XbG8HoG0/zJvtovyCMU=" ></script>
 <script src="https://pagecdn.io/lib/ace/1.4.14/ext-language_tools.min.js" crossorigin="anonymous"></script>
 <script>
