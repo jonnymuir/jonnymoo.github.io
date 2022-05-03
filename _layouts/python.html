@@ -16,7 +16,9 @@ import tb as traceback
 import javascript
 
 from browser import console, document, window, alert, bind, html
+from browser.local_storage import storage
 
+# Create the editor
 editor = window.ace.edit("editor")
 editor.setTheme("ace/theme/solarized_light")
 editor.session.setMode("ace/mode/python")
@@ -29,6 +31,7 @@ editor.setOptions({
   'fontSize': '18px'
 })
 
+# To redirect the output to the console textarea
 class cOutput:
     encoding = 'utf-8'
 
@@ -51,6 +54,16 @@ if "console" in document:
     sys.stdout = cOut
     sys.stderr = cOut
 
+# Get the initial value from storage
+if "py_src {{ page.url }}" in storage:
+  editor.value = storage["py_src {{ page.url }}"]
+
+# And store it when the editor changes
+editor.getSession().on('change', lambda:
+  storage["py_src {{ page.url }}"] = editor.value
+)
+
+# The run button
 def run(*args):
     global output
     document["console"].value = ''
@@ -70,6 +83,7 @@ def run(*args):
     print('<completed in %6.2f ms>' % ((time.perf_counter() - t0) * 1000.0))
     return state
 
+# Bind the run button
 document['run'].bind('click',lambda *args: run())
 </script>
 <div class="python-console">
