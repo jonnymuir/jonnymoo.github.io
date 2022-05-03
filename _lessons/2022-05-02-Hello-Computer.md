@@ -4,7 +4,6 @@ title: Hello Computer
 InitialCode: |
   print("hello stinky")
   print("more stinky")
-SuccessOutput: Sir stinkalot is really Jonny
 ---
 Hi Alban, welcome to the world of programming. If you are not Alban, whenever you read the word Alban replace it with Penny. Sometimes I will instead address these lessons to Penny. In this situation if you are not Penny, replace it Alban.
 
@@ -36,22 +35,3 @@ Any "output" will be put in the "output" console. Output could be the Python int
 I want you to program it to say, "Sir stinkalot is really Jonny" - Just like that.
 
 When you are done - email me a screenshot as proof of your greatness to jonnypmuir@gmail.com
-
-<script>
-let console = document.getElementById('console');
-console.addEventListener('input', function() {
-  if(console.value.toLower().indexOf('sir stinkalot is really jonny') !== -1 ) {
-    document.getElementById('successImage').style.display = 'block';
-  }
-  else
-  {
-    document.getElementById('successImage').style.display = 'none';
-  }
-});
-</script>
-
-<img id='successImage' src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.herocollector.com%2Fen-gb%2FArticle%2Fspaced-20&psig=AOvVaw0cMJKVd1KefzcPC0soxE_q&ust=1651689710980000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCODrr-b9w_cCFQAAAAAdAAAAABAD" alt="Success" style="display: none;" />
-
-
-
-
