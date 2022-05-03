@@ -56,9 +56,7 @@ if "console" in document:
 
 # Get the initial value from storage
 if "py_src {{ page.url }}" in storage:
-  editor.value = storage["py_src {{ page.url }}"]
-else:
-  editor.value = """{{ page.InitialCode }}"""
+  editor.setValue(storage["py_src {{ page.url }}"])
 
 # And store it when the editor changes
 def save(*args):
@@ -92,7 +90,8 @@ document['run'].bind('click',lambda *args: run())
   <div id="buttons">
     <button id="run">Run</button>
   </div>
-  <div id="contents"><div id="editor"></div><div id="consoleContainer">
+  <div id="contents"><div id="editor">{{ page.InitialCode }}
+    </div><div id="consoleContainer">
       <textarea id="console" autocomplete="off"></textarea>
     </div>
   </div>
