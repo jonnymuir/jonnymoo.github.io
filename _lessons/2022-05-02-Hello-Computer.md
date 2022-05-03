@@ -4,6 +4,7 @@ title: Hello Computer
 InitialCode: |
   print("hello stinky")
   print("more stinky")
+SuccessOutput: Sir stinkalot is really Jonny
 ---
 Hi Alban, welcome to the world of programming. If you are not Alban, whenever you read the word Alban replace it with Penny. Sometimes I will instead address these lessons to Penny. In this situation if you are not Penny, replace it Alban.
 
@@ -35,3 +36,7 @@ Any "output" will be put in the "output" console. Output could be the Python int
 I want you to program it to say, "Sir stinkalot is really Jonny" - Just like that.
 
 When you are done - email me a screenshot as proof of your greatness to jonnypmuir@gmail.com
+
+
+
+
