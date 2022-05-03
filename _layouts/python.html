@@ -60,7 +60,7 @@ if "py_src {{ page.url }}" in storage:
 
 # And store it when the editor changes
 def save(*args):
-  storage["py_src {{ page.url }}"] = editor.value
+  storage["py_src {{ page.url }}"] = editor.getValue()
 editor.getSession().on('change', save)
 
 # The run button
