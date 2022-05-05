@@ -416,20 +416,6 @@ a.post-more {
 		padding: 0;
 		padding-bottom: 10px;
 	}
-
-  /* Editor and Console */
-  .python-console #editor { 
-    width: 60%;
-    height: 800px;
-    display:inline-block;
-  }
-
-  .python-console #consoleContainer {
-    width: 40%;
-    height:800px;
-    display:inline-block;
-    top:0;
-  }
 }
 
 @media only screen and (min-device-width: 768px) {
@@ -450,4 +436,18 @@ a.post-more {
 		padding-left: 2em;
 		padding-bottom:0;
 	}
+  
+  /* Editor and Console */
+  .python-console #editor { 
+    width: 60%;
+    height: 800px;
+    display:inline-block;
+  }
+
+  .python-console #consoleContainer {
+    width: 40%;
+    height:800px;
+    display:inline-block;
+    top:0;
+  }
 }
