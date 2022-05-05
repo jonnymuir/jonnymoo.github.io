@@ -87,7 +87,7 @@ def run(*args):
       document["successImage"].style.display = "none"
       
     print('<completed in %6.2f ms>' % ((time.perf_counter() - t0) * 1000.0))
-    document["console"].scrollIntoView()
+    document["console"].scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"})
     return state
 
 # Bind the run button
