@@ -98,8 +98,8 @@ document['run'].bind('click',lambda *args: run())
     <button id="run">Run</button>
   </div>
   <img id='successImage' src="/assets/success.jpg" alt="Success" style="display: none; height: 100px; margin-bottom: 15px; " />
-  <div id="contents"><a id="back" href="#run">Back to code</a><div id="editor">{{ page.InitialCode }}
-    </div><div id="consoleContainer">
+  <div id="contents"><div id="editor">{{ page.InitialCode }}
+    </div><a id="back" href="#run">Back to code</a><div id="consoleContainer">
       <textarea id="console" autocomplete="off"></textarea>
     </div>
   </div>
