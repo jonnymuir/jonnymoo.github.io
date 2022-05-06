@@ -351,6 +351,11 @@ a.post-more {
   color: white;
 }
 
+.python-console #back {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 /* Reduce padding for very small screens */
 @media only screen and (max-device-width: 768px) {
 	header > *, main > *, footer > * {
