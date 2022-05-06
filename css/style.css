@@ -450,4 +450,8 @@ a.post-more {
     display:inline-block;
     top:0;
   }
+
+  .python-console #back {
+    display: none;
+  }
 }

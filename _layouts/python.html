@@ -87,7 +87,7 @@ def run(*args):
       document["successImage"].style.display = "none"
       
     print('<completed in %6.2f ms>' % ((time.perf_counter() - t0) * 1000.0))
-    document["console"].scrollIntoView({"behavior": "smooth", "block": "end", "inline": "nearest"})
+    document["console"].scrollIntoView({"behavior": "smooth"})
     return state
 
 # Bind the run button
@@ -98,7 +98,7 @@ document['run'].bind('click',lambda *args: run())
     <button id="run">Run</button>
   </div>
   <img id='successImage' src="/assets/success.jpg" alt="Success" style="display: none; height: 100px; margin-bottom: 15px; " />
-  <div id="contents"><div id="editor">{{ page.InitialCode }}
+  <div id="contents"><a id="back" href="#run">Back to code</a><div id="editor">{{ page.InitialCode }}
     </div><div id="consoleContainer">
       <textarea id="console" autocomplete="off"></textarea>
     </div>
