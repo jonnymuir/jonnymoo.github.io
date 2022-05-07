@@ -81,7 +81,7 @@ def run(*args):
     output = document["console"].value
 
     # Check if the output is successful
-    if("""{{ page.SuccessOutput }}""" && """{{ page.SuccessOutput }}""".lower() in output.lower()):
+    if("""{{ page.SuccessOutput }}""" and """{{ page.SuccessOutput }}""".lower() in output.lower()):
       document["successImage"].style.display = "block"
     else:
       document["successImage"].style.display = "none"
