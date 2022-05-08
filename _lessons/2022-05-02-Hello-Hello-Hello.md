@@ -24,7 +24,7 @@ Notes:
 - Python knows it is a string because you have put a double quote " at the beginning and the end.
 
 # Loops
-All good, but what if you wanted to say sir stinkalot was stinky, but lots of times.
+All good, what if you wanted to say sir stinkalot was stinky, but lots of times.
 
 Well you could just use more statements. Each statement goes on a new line. 
 
@@ -40,7 +40,7 @@ Cheating is fun, and what computers are made for. The way to cheat is a loop. In
 
 ## What to do
 
-What I want you to do is print out "Sir stinkalot is very stink" 100 hundred times.
+What I want you to do is print out "Sir stinkalot is very stinky" 100 hundred times.
 
 I'm not going to tell you how, but I will give you a hint. Then next time we'll break it down and work out what is going on.
 
