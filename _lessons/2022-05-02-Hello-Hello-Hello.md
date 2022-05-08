@@ -18,7 +18,10 @@ A statement is (usually) a verb followed by an open bracket, followed by a list 
 
 ![The Print Command Broken Down](../assets/print-command.jpg)
 
-
+Notes:
+- A string is not made out of string. It is made out of characters.
+- A character is not someone who does something funny as in, Sir Stinkalot, what a character. It is a either a letter, a number zero to nine or one of the other strange things found on your keyboard (and some that aren't!)
+- Python knows it is a string because you have put a double quote " at the beginning and the end.
 
 # Loops
 All good, but what if you wanted to say sir stinkalot was stinky, but lots of times.
