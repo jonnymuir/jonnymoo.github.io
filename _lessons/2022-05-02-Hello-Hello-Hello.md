@@ -6,8 +6,8 @@ InitialCode: |
   print("Sir stinkalot is very stinky")
 ---
 Well done Alban - in the last lesson you successfully did two things:
-1) Called out that Jonny is a stinkalot
-2) Wrote a statement
+1. Called out that Jonny is a stinkalot
+2. Wrote a statement
 
 # Statements
 If we go with a program being like recipe, then a statement is like an instruction in your recipe. It tells your computer what you want it to do.
