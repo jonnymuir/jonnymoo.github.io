@@ -319,11 +319,13 @@ a.post-more {
 	header > *, main > *, footer > * {
 		padding:0;
 	}
-    header, main, footer {
+    
+  header, main, footer {
         padding-left: 0.5em;
         padding-right: 0.5em;
-    }
-    nav, nav ul {
+  }
+  
+  nav, nav ul {
 		display:initial;
 		padding:0;
 	}
@@ -354,6 +356,9 @@ a.post-more {
 	}
 	a.site-logo {
 		padding-bottom:10px;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
 	}
 	p {
 		font-size:16px;
