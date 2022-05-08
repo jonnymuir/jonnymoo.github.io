@@ -1,0 +1,53 @@
+/* Python console stuff */
+
+.python-console #contents {
+  position: relative;
+}
+
+.python-console #editor { 
+  width: 100%;
+  height: 800px;
+}
+
+.python-console #consoleContainer {
+  width: 100%;
+  height:800px;
+}
+
+.python-console #console {
+  width: 100%;
+  height: 100%;
+  font-size: 12px;  
+  background-color: black;
+  color: white;
+}
+
+.python-console #back {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  display: block;
+}
+
+@media only screen and (min-device-width: 768px) {
+  /* Editor and Console */
+  .python-console #editor { 
+    width: 60%;
+    height: 800px;
+    display:inline-block;
+  }
+
+  .python-console #console {
+    font-size: 14px;  
+  }
+
+  .python-console #consoleContainer {
+    width: 40%;
+    height:800px;
+    display:inline-block;
+    top:0;
+  }
+
+  .python-console #back {
+    display: none;
+  }
+}

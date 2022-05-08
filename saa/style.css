@@ -174,19 +174,17 @@ h1 {
 }
 
 h2, h3, h4, h5 {
-    font-size: 1.5em;
-}
-
-/* Buttons */
-button {
-  font-size: 18px;
-  padding: 5px 10px;
-  margin-bottom: 10px;
-  min-width: 150px;
+    font-size: 1em;
 }
 
 /* Balance */
+code,
+pre {
+  background: #eee;
+}
+
 code {
+  padding: 2px 4px;
   vertical-align: text-bottom;
 }
 
@@ -202,6 +200,12 @@ a {
 /* Secondary colours */
 body {
   color: #566b78;
+}
+
+code,
+pre {
+  background: #f5f7f9;
+  color: #a7adba;
 }
 
 pre {
@@ -272,6 +276,19 @@ nav ul li.logo {
      display: none;
  }
 
+/* Mentors page */
+img[alt^="Picture of"] {
+	display:inline-block;
+	vertical-align:middle;
+}
+
+span.mentor-text {
+    display: inline-block;
+    vertical-align: middle;
+    width: 80%;
+    padding-left: 2em;
+}
+
 /* Blog list */
 article {
     padding: 2em;
@@ -313,6 +330,7 @@ a.post-more {
 	text-align: right;
 	width:50%;
 }
+
 
 /* Reduce padding for very small screens */
 @media only screen and (max-device-width: 768px) {
