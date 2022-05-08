@@ -317,7 +317,7 @@ a.post-more {
 /* Reduce padding for very small screens */
 @media only screen and (max-device-width: 768px) {
 	header > *, main > *, footer > * {
-		padding:0 1em;
+		padding:0;
 	}
     header, main, footer {
         padding-left: 0.5em;
