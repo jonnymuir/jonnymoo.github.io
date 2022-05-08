@@ -24,10 +24,12 @@ A statement is (usually) a verb followed by an open bracket, followed by a list 
 All good, but what if you wanted to say sir stinkalot was stinky, but lots of times.
 
 Well you could just use more statements. Each statement goes on a new line. 
-```python
+
+~~~
 print("Sir stinkalot is very stinky")
 print("Sir stinkalot is very stinky")
-```
+~~~
+
 And repeat for the number of times you want to print it out. This would be the right and proper way but who likes right and proper? Much better to cheat.
 
 Cheating is fun, and what computers are made for. The way to cheat is a loop. In a loop you can repeat yourself. In a loop you can repeat yourself. In a loop you can repeat yourself. You get the idea.
