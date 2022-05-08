@@ -28,8 +28,11 @@ All good, but what if you wanted to say sir stinkalot was stinky, but lots of ti
 
 Well you could just use more statements. Each statement goes on a new line. 
 
+~~~
     print("Sir stinkalot is very stinky")
     print("Sir stinkalot is very stinky")
+~~~
+{: .language-python}
 
 And repeat for the number of times you want to print it out. This would be the right and proper way but who likes right and proper? Much better to cheat.
 
