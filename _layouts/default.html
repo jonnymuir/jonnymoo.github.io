@@ -9,7 +9,7 @@
         <link rel="stylesheet" type="text/css" href="/css/python.css">
         <link rel="stylesheet" type="text/css" href="/css/syntax-github.css">
 	</head>
-    <body onload="brython?.();">
+    <body onload="if(typeof brython === 'function') { brython(); }">
         <script>
             document.documentElement.className += 
             (("ontouchstart" in document.documentElement) ? ' touch' : ' no-touch');
