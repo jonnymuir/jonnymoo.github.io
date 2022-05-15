@@ -1,6 +1,6 @@
 ---
 layout: post
-image: coaching
+image: blueprint
 title: Design Systems and Monitoring
 ---
 Two separate themes dominate this week
