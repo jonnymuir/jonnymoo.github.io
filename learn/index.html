@@ -16,7 +16,7 @@ image: python
     {% capture excerpt_words %} 
       {{ lesson.excerpt | number_of_words }} 
     {% endcapture %} 
-    <time datetime="{{ lesson.date | date_to_xmlschema }}">{{ post.lesson | date: "%b %-d, %Y" }}</time><a class="post-more" href="{{ lesson.url }}">Teach me</a>
+    <time datetime="{{ lesson.date | date_to_xmlschema }}">{{ post.lesson | date: "%b %-d, %Y" }}</time><a class="post-more" href="{{ lesson.url }}">Teach me more</a>
 </article>
 {% endfor %} 
 </div>
