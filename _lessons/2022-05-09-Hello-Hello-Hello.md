@@ -1,6 +1,7 @@
 ---
 layout: python
 title: Hello Hello Hello
+date: 2022-05-09
 InitialCode: |
   print("Sir stinkalot is very stinky")
   print("Sir stinkalot is very stinky")
