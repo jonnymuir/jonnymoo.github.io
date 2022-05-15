@@ -5,7 +5,7 @@ image: python
 ---
 
 <div class="article_wrap">
-{% for lesson in site.lessons %}
+{% for lesson in site.lessons | sort: 'date' | reverse %}
 <article>
     <a class="post-title" href="{{ lesson.url }}">{{ lesson.title }}</a>
     {{ lesson.excerpt | markdownify }} 
