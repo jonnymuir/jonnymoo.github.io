@@ -1,0 +1,61 @@
+---
+layout: python
+title: Space
+InitialCode: |
+  for x in range(100):
+    print("Sir stinkalot?")
+    print("You are stinky");
+
+  print("And that is you told 100 times") 
+---
+Well done Alban - in the last lesson you successfully did:
+1. Reinforced the stinkyness of Jonny
+2. Looked at repeating stuff
+
+# Statements and flow constructs
+We saw that you can do multiple statements on separate lines, like a recipe.
+
+But we can also do something a bit more funky, we can change the flow of how the statements run. 
+
+![A forloop and indentation command broken down](../assets/forloop.jpg)
+
+So what is going on?
+
+__for__ tells python that we want to do a [forloop](https://wiki.python.org/moin/ForLoop)
+__range(100)__ defines a collection of things that we want to loop round. In our case, all number whole numbers from 0 to 99 (i.e. a 100 actual numbers)
+__x__ is what we call a variable. More on these later. Feel free to have a play around and see if there is anything you can use this for.
+
+And then something weird happens. [Python cares about code being readable](https://peps.python.org/pep-0020/#the-zen-of-python). Coding languages are typically different levels of pure gibberish, until you learn them and become accustomed to their gibberishness.
+
+Python can still be a bit gibberish, but a nice level of gibberish. One of the ways it scales in the gibberish is what is by using what is known as "indenting" - the numbers of spaces you put before a command, in a readable way.
+
+We can see how this works in the example above. See lines 1 and 5? They have no spaces before them. These are top level.
+See lines 2 and 3. These have some spaces (4 in our case) before the print command. This tells python that these two lines are best of friends and are grouped together. They also belong to our __for__ loop.
+
+Line 5 however is not bestie with lines 2 or 3 and do not belong to the __for__ loop. It will run afterwards and just do its own thing.
+
+Put it into the code editor below and have a play around with. Mess with the spaces and see what it does. If you get error messages take your time to read them. Ertor messages typically are gobblydegook, but it is worth just spending time unpacking exactly what they say because they often are tyring to tell you something. My advice is usually just concentrate on the first error message.
+
+Notes:
+-ring because you have put a double quote " at the beginning and the end.
+
+# Loops
+All good, what if you wanted to say sir stinkalot was stinky, but lots of times.
+
+Well you could just use more statements. Each statement goes on a new line. 
+
+~~~python
+    print("Sir stinkalot is very stinky")
+    print("Sir stinkalot is very stinky")
+~~~
+
+And repeat for the number of times you want to print it out. This would be the right and proper way but who likes right and proper? Much better to cheat.
+
+Cheating is fun, and what computers are made for. The way to cheat is a loop. In a loop you can repeat yourself. In a loop you can repeat yourself. In a loop you can repeat yourself. You get the idea.
+
+
+## What to do
+
+Just write out the code in the screen shot into the code editor and have a little mess with it. 
+
+Try and understand how the indentation works by breaking it. For instance what happens if you use 3 spaces, not 4 on line 2? What happens if you use 3 spaces on line 2 and 3? What happens if you start using spaces on 5? Can you get it to be friends with line 2 and 3? Just mess and enjoy, and when you are bored - do something else.
