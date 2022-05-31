@@ -361,6 +361,11 @@ a.post-more {
     top: 20px;
 		width: 60px;
 	}
+	
+	a.site-logo img {
+		object-fit: cover;
+    		object-position: left;	
+	}
 	p {
 		font-size:16px;
 	}
