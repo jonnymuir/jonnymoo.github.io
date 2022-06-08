@@ -11,9 +11,9 @@ Lifecycle analysis (LCA) is complex for tangible products and more so for servic
 
 The lines of code we write run on hardware somewhere that is powered by electricity on machines that have been built using materials that are extracted from the earth and processed, transported, dismantled, recycled and disposed at end of life. 
 
-All of this, the bits in between and in the web of related activities have a measure cost in terms of economic, environmental and social impact.
+All of this, the bits in between and in the web of related activities have a measurable cost in terms of economic, environmental and social impact.
 
-Designing with this in mind, similar to when we design for accessibility or inclusively, has an interesting side effect - it makes our products better, more efficient, simpler, more cost effective and simpler. Oh, and more competitive.
+Designing with this in mind, similar to when we design for accessibility or inclusivity, has an interesting side effect - it makes our products better, more efficient, simpler, more cost effective and simpler. Oh, and more competitive.
 
 And writing lines of code is an act of design - as is pretty much everything.
 
