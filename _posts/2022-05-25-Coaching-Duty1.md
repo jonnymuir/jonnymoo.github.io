@@ -3,7 +3,7 @@ layout: post
 image: coaching
 title: Unwrapping duty 1
 ---
-This page evolve as I branch out from each of the items to work that I need to do / learn.
+This page will evolve as I branch out from each of the items to work that I need to do / learn.
 # Coaching
 
 Picking through [Duty 1](https://www.instituteforapprenticeships.org/apprenticeship-standards/coaching-professional-v1-0#Occupationduties1)
