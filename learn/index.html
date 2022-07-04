@@ -7,6 +7,7 @@ image: python
 <div class="article_wrap">
 {% assign lessons = site.lessons | sort: 'date' | reverse %}
 {% for lesson in lessons %}
+{% if lesson.status != 'draft'  %}
 <article>
     <a class="post-title" href="{{ lesson.url }}">{{ lesson.title }}</a>
     {{ lesson.excerpt | markdownify }} 
@@ -18,5 +19,6 @@ image: python
     {% endcapture %} 
     <time datetime="{{ lesson.date | date_to_xmlschema }}">{{ post.lesson | date: "%b %-d, %Y" }}</time><a class="post-more" href="{{ lesson.url }}">Teach me more</a>
 </article>
+{% endif %}
 {% endfor %} 
 </div>

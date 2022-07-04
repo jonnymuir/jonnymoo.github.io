@@ -30,3 +30,11 @@ layout: post
 [default.html](https://github.com/jonnymoo/jonnymoo.github.io/blob/master/_layouts/default.html) - Change the layout of the website and navigation bars.
 
 [style.css](https://github.com/jonnymoo/jonnymoo.github.io/blob/master/css/style.css) - Change the design and colour of things on the website.
+
+## Running locally
+
+[Install all the stuff jekyll needs as described](https://jekyllrb.com/docs/)
+
+Then 
+
+     bundle exec jekyll serve
