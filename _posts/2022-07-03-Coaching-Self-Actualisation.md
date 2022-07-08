@@ -12,9 +12,9 @@ Discuss the theory of self-actualisation, such as Maslow and Herzberg, giving yo
 
 ### Context
 
-The term sef-actualisation was introduced by Kurt Goldstein. As a reaction to the psychology of Freud and Jung, Goldstein created a holistic theory which led into the [humanistic branch of psychology](https://www.simplypsychology.org/humanistic.html). Freud and Jung were psychoanalysts. They looked internally to explain negative aspects of a patients thoughts and behaviour or treat mental disorders. 
+The term self-actualisation was introduced by Kurt Goldstein. As a reaction to the psychology of Freud and Jung, Goldstein created a holistic theory which led into the [humanistic branch of psychology](https://www.simplypsychology.org/humanistic.html). Freud and Jung are psychoanalysts. This involves looking internally to explain negative aspects of a patients thoughts and behaviour or treat mental disorders. 
 
-In contrast, to Goldstein self-actualisaton is the goal of every organism. It is to do with actualising potential.
+In contrast, Goldstein believes that the goal of every organism is to acheive some form of potential. He coins this self-actualisation.
 
 Carl Rogers limits self-actualisaton to humans. To Rogers we achieve self-actualisation when our ideal self and actual self are in harmony (congruence as he puts it). Self-actualising is the act of seeking to resolve tensions caused by incongruence by exploring understanding these and exploring potential possibilities to match real and ideal.
 
