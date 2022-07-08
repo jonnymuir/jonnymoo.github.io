@@ -24,15 +24,15 @@ Abraham Maslow created a hierarchy of needs model with self-actualisation at the
 
 ![Maslow's hierarchy of needs](https://www.simplypsychology.org/maslow-needs-hierarchy.jpg)
 
-Frederick Herzberg created the two-factor theory, a theory for motivation in the workflow. He is influenced by Maslow's work and agues there are two sets factors, motivators and hygiene factors. Each set acts independently from the other increasing and decreasing (respectively) motivation. 
-
 Criticism includes: 
 - The model makes it look like the lower bands need satisfying before the upper levels - doesn't allow for complex relationship between different levels of needs
 - Only an elite few can achieve self-actualisation (probably born out from Malsow's own example list)
 
-![Herzberg's two-factor motivation theory](https://www.simplypsychology.org/Two-Factor-Theory.png)
+Frederick Herzberg created the two-factor theory, a theory for motivation in the workflow. He is influenced by Maslow's work and agues there are two sets factors, motivators and hygiene factors. Each set acts independently from the other increasing and decreasing (respectively) motivation. 
 
 Herzberg's theory links to self-actualisation in that it identifies possibilities for growth (presumably toward it).
+
+![Herzberg's two-factor motivation theory](https://www.simplypsychology.org/Two-Factor-Theory.png)
 
 Criticism includes:
 - Has proved popular in management but isn't backed by substantial studies (academically)
