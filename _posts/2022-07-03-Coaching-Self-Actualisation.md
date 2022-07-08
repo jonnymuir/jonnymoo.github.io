@@ -84,7 +84,7 @@ This will alter over time and differ between contexts. For example, if a coachee
 
 ## Discuss how you would maintain good practice and adhere to a code of conduct in a coaching environment, give examples where possible
 
-I need to explore this more. Understand what the purpose and responsibility of a coach is and how it differs from mentoring, teaching and (definitely) counseling. 
+I need to explore this more. Understand what the purpose and responsibility of a coach is and how it differs from mentoring, teaching and (definitely) counselling. 
 
 Code of conducts and duty of care. Maintaining a duty of care means keeping refreshed with the official advice and content. Todo: find links to it and schedule in.
 
