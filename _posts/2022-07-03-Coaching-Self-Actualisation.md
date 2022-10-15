@@ -6,7 +6,7 @@ title: Self Actualisation
 
 This blog is me learning in the open. It's not intended as advice or opinion (or even as being interesting - it is to me, might not be to you).
 
-Discuss the theory of self-actualisation, such as Maslow and Herzberg, giving your views on these models and their use
+Discuss the theory of self-actualisation, such as Maslow and Herzberg, giving your views on these models and their use.
 
 [(Perera, 2020)](https://www.simplypsychology.org/self-actualization.html) "Self-actualization is the complete realization of one's potential and the full development of one's ability and appreciation for life"
 
