@@ -104,8 +104,8 @@ th:nth-child(1), th:nth-child(3)
 
 | <span id='functional-skills'>Functional Skills</span>  | Some Good Excellent  | Comments  | Date  | Date | Date |
 |:---|:---|:---|:---|:---|:---|
-| Qualifications - Maths | Good | Met with GCSE Math (A) - Certs uploaded  |   |   |   |
-| Qualifications - English. Reading, Writing, Speaking Listening & Communication | Good |  Met with GCSE with SGCE Engligh Lit & Lang - Certs uploaded |   |   |   |
+| Qualifications - Maths | Excellent | Met with GCSE Math (A) - Certs uploaded  |   |   |   |
+| Qualifications - English. Reading, Writing, Speaking Listening & Communication | Excellent |  Met with GCSE with SGCE Engligh Lit & Lang - Certs uploaded |   |   |   |
 
 <script>
 let x = document.getElementsByTagName('TD');
