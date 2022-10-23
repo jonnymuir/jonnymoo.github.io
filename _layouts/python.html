@@ -111,3 +111,15 @@ document['run'].bind('click',lambda *args: run())
   ace.config.set('basePath', 'https://pagecdn.io/lib/ace/1.4.14/')
 </script>
 
+<div>
+{% assign lessons = site.lessons | sort: 'date' %}
+  {% assign lastlessontitle = '' %}
+  {% for lesson in lessons %}
+  {% if lesson.status != 'draft'  %}
+  {% if lastlessontitle == page.title %}
+  <a href='{{ lesson.url }}'>Next lesson</a>
+  {% endif %}
+  {% assign lastlessontitle = lesson.title %}
+  {% endif %}
+  {% endfor %}
+</div>

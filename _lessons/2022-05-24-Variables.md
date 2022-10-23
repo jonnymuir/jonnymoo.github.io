@@ -1,6 +1,6 @@
 ---
 layout: python
-title: Variables
+title: 4 - Variables
 date: 2022-05-24
 image: apples
 InitialCode: |

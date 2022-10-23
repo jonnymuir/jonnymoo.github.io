@@ -1,6 +1,6 @@
 ---
 layout: python
-title: Hello Computer
+title: 1 - Hello Computer
 date: 2022-05-02
 InitialCode: |
   print("hello stinky")
@@ -37,7 +37,4 @@ Any "output" will be put in the "output" console. Output could be the Python int
 I want you to program it to say, "Sir stinkalot is really Jonny" - Just like that.
 
 When you are done - email me a screenshot as proof of your greatness to jonnypmuir@gmail.com
-
-
-
 
