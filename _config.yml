@@ -1,4 +1,4 @@
-name: Bradford CoderDojo
+name: Jonny Muir Site
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 paginate: 20
