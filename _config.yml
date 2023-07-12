@@ -1,4 +1,4 @@
-name: Jonny Muir Site
+title: Jonny Muir Site
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 paginate: 20
@@ -8,7 +8,7 @@ encoding: utf-8
 kramdown:
   syntax_highlighter: coderay
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 exclude:
   - Gemfile
