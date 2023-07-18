@@ -3,7 +3,7 @@ layout: post
 image: netzero
 title: Sustainable Transformation
 ---
-I have been working in digital transformation for years. Digital Transformation At Scale (Greenway Terrett Bracken Loosemore, 2021) define digital transformation as:
+I have been working in digital transformation for years. In Digital Transformation At Scale, Andrew Greenway, Ben Terrett, Mike Bracken and Tom Loosemore (2021) define digital transformation as:
 
 "A successful digital transformation makes it possible not only to deliver products and services that are simpler, cheaper, and better, but for the organisation as a whole to operate effectively in the online era."
 
