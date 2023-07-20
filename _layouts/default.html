@@ -24,10 +24,11 @@
                     <li><a href="/">Blog</a></li>
                 </ul>
             </nav>
-        </header>{% if page.image %}<div class="site-splash" style="background-image:url(/assets/{{ page.image }}.jpg);"><div class="splash-text">{{ page.title }}</div></div>{% endif %}<main><section>
+        </header>{% if page.image %}<div class="site-splash" style="background-image:url(/assets/{{ page.image }}.jpg);"><div class="splash-text">{{ page.title }}</div></div>{% endif %}<main><div id="wcb" class="carbonbadge"></div><section>
           {{ content }}
         </section></main>
         <footer>
         </footer>
 	</body>
+    <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
 </html>
