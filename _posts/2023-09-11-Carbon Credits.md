@@ -46,7 +46,7 @@ Market systems have unintended consequences and are difficult to get right / dri
 
 At worse they can be seen as a diversion from addressing the real underlying problems - this criticism has especially been targeted at technological solutions. 
 
-Measuring and determining impact of projects can be complicated and time consuming. Need more efficient and effective ways of measuring quality if they are to have the desired effect for net zero in time.
+Measuring and determining impact of projects can be complicated and time consuming. Need more efficient and effective ways of measuring quality if they are to have the desired effect for Net Zero in time.
 
 # What is a carbon project
 
