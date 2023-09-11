@@ -40,7 +40,7 @@ Not the same as Net Zero. You cannot claim to be Net Zero by using offsets (buyi
 
 Offsets can play an important place in a climate strategy. Additionally carbon products / projects can (should) address concerns other than GHG removal / avoidance (e.g. positive impact on communities, addressing poverty).
 
-Organisations have been critised for using them as a lazy way of buying their way out of making their own reductions. (Examples?)
+Organisations have been criticised for using them as a lazy way of buying their way out of making their own reductions. (Examples?)
 
 Market systems have unintended consequences and are difficult to get right / drive the intended behaviour (which is create a planetary system that sustains life regeneratively). 
 
