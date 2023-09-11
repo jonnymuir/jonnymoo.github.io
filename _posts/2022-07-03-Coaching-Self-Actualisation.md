@@ -4,7 +4,7 @@ image: rez
 title: Self Actualisation
 ---
 
-This blog is me learning in the open. It's not intended as advice or opinion (or even as being interesting - it is to me, might not be to you).
+Notes from early course revision:
 
 Discuss the theory of self-actualisation, such as Maslow and Herzberg, giving your views on these models and their use.
 
@@ -74,7 +74,7 @@ It is interesting because it explains ways to understand people and their motiva
 
 I like this, and as long as you are critical of the authors and their own infallibility or even agendas, there is a wealth of depth to inform helping others help themselves. 
 
-From the point of view of coaching, it strikes me that you will be dealing with people who will either come with their own views on spiritualism, religious or otherwise, or may not want a prescriptive model pushing their way. Therefore, it is important not to push. This is where I need to reconcile my own needs with reality. For instance, I have no desire to become a "business guru coach" because that would be disingenuous (or even incongruous), so I need to find out what it is I do want. This is positive and will be interesting. From content and process theory - either I start changing, or I change by context (or a mixture of both).
+From the point of view of coaching, it strikes me that you will be dealing with people who will either come with their own views on spiritualism, religious or otherwise, or may not want a prescriptive model pushing their way. Therefore, it is important not to push. 
 
 ## Discuss and research models enabling the effectiveness of contracting in a coaching environment
 
@@ -94,7 +94,7 @@ Keeping up to date, make sure you don't cause harm, keep your clients interests 
 
 I've done plenty of study of financial performance measurements round the financial aspect of an organisation (ROI, ROCE, ROE etc). A primary use of these are for investors to get an understanding of the financial health of an organisation to inform their own decisions.
 
-From the point of view of coaching you could see this from two angles. If an organisation invests in coaching, what will they get back? The more interesting angle will be if an organisation invests in a coaching culture, and really looks after its people, how will this affect the performance of the organisation.
+From the point of view of coaching you could see this from two angles. If an organisation invests in coaching, what will they get back? The more interesting angle will be if an organisation invests in a coaching culture, and really looks after its people, how will this affect the performance of the organisation. Typically ROI metrics will be softer than financial metrics, for example employee satisfaction or retention rates.
 
 You could go a level deeper and question the purpose of organisations in society. This may touch on your economic and political views somewhat, but we have big issues that are time critical in a way that they have never been before, i.e. "will we have an environment which will sustain humans in the next fifty to a hundred years" is different from "what are your personal view of fairness and how wealth should be distributed". Looked at through this lens, it seems common sense that most questions would be about sustainability. Healthy return on investment is usually seen as a question of sustained competitive advantage. The companies that will exist in the future almost by definition will have to be the ones which take sustainability seriously (and I'm an optimist - so I won't concentrate on the alternative as there is little point). The best way to do this is to invest in people so that they can collectively work at their best to solve problems. Is coaching a way into this? The performance of people needs work towards the performance of organisations to be able to achieve sustainability (economic, social and environmental) in order to secure a sustained return on investment. 
 
