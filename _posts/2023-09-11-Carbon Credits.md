@@ -50,7 +50,7 @@ Measuring and determining impact of projects can be complicated and time consumi
 
 # What is a carbon project
 
-A carbon project is a project which produces credits by avoiding or removing emission. Projects are typically nature based (e.g. planting trees, preserving wetlands) or technology based (e.g. direct air capture and storage tech wizardry).
+A carbon project is a project which produces credits by avoiding or removing emission. Projects are typically nature based (e.g. planting trees, preserving wetlands) or technology based (e.g. direct air capture and storage technology).
 
 Photo by <a href="https://unsplash.com/@mischievous_penguins?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Casey Horner</a> on <a href="https://unsplash.com/photos/4rDCa5hBlCs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
