@@ -7,6 +7,8 @@ A brief introduction to carbon credits.
 
 # What is a carbon credit
 
+A carbon credit is a tradable certificate.
+
 "A quality carbon credit means that one tonne of carbon dioxide has been reduced, or removed from the atmosphere" [Emily Sharples @ South Pole explaining carbon credits](https://www.youtube.com/watch?v=D8loy7veT6g) 
 
 Projects are run which generate credits. If you, as an organisation or an individual, are responsible for creating green house gas (GHG) emissions (carbon dioxide or an equivalent), then you can buy credits and reduce your reported emissions, for instance to claim you are carbon neutral. 
