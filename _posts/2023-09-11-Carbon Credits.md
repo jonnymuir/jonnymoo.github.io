@@ -36,7 +36,7 @@ You can achieve Carbon Neutral by offsetting your GHG emissions with credits.
 
 Not the same as Net Zero. You cannot claim to be Net Zero by using offsets (buying carbon credits), you need to reduce your emissions.
 
-# Positives and Criticism
+# Positives and Criticisms
 
 Offsets can play an important place in a climate strategy. Additionally carbon products / projects can (should) address concerns other than GHG removal / avoidance (e.g. creating regenerative communities, addressing poverty).
 
