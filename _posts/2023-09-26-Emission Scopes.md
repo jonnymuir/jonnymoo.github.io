@@ -18,7 +18,7 @@ Scopes are a reporting mechanism. They help define where emissions come from. Th
 ![Kettle, electric kettle, coffee cup](/assets/scopes.jpg)
 _The [Green Web Foundation](https://docs.google.com/presentation/d/1CuRqj6bF3-VtD82_oRK6K1Jnmw1YVYn1fXdiHc-0iXg/edit#slide=id.g27992814723_0_64)_
 
-- Scope 1. Direct. The gas you burn to heat a kettle directly emits CO2
+- Scope 1. Direct. The gas you burn to heat a kettle directly emits CO2. Note: Not all emissions have to be from burning fossil fuels. If you keep a cow for your milk, then cow trumps will count as scope 1.
 - Scope 2. Electric kettle. The power station that provides your electricity emits CO2
 - Scope 3. Coffee shop bought coffee. Your supply chain. They have their own scope 1 and scope 2 emissions.
 
