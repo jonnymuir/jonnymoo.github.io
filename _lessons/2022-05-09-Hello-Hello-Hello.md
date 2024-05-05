@@ -10,7 +10,7 @@ Well done Alban - in the last lesson you successfully did two things:
 1. Called out that Jonny is a stinkalot
 2. Wrote a statement
 
-# Statements
+## Statements
 If we go with a program being like recipe, then a statement is like an instruction in your recipe. It tells your computer what you want it to do.
 
 If we look at the [documentation for print](https://docs.python.org/3/library/functions.html#print) then you will find out that blah blah blah blah blah. Yep, documentation is boring and not always that helpful. Nowhere does it mention about print being use to tell people they are Sir Stinkalot. Pah.
@@ -24,7 +24,7 @@ Notes:
 - A character is not someone who does something funny as in, Sir Stinkalot, what a character. It is a either a letter, a number zero to nine or one of the other strange things found on your keyboard (and some that aren't!)
 - Python knows it is a string because you have put a double quote " at the beginning and the end.
 
-# Loops
+## Loops
 All good, what if you wanted to say sir stinkalot was stinky, but lots of times.
 
 Well you could just use more statements. Each statement goes on a new line. 

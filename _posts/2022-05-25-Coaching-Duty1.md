@@ -4,11 +4,11 @@ image: coaching
 title: Unwrapping duty 1
 ---
 This page will evolve as I branch out from each of the items to work that I need to do / learn.
-# Coaching
+## Coaching
 
 Picking through [Duty 1](https://www.instituteforapprenticeships.org/apprenticeship-standards/coaching-professional-v1-0#Occupationduties1)
 
-# Knowledge
+## Knowledge
 
 K3a - Diversity and inclusion and bias theory, including personality type theories, such as preferences for introversion vs extroversion, integrity, ontology and human values and how they impact on behaviour and organisations.
 
@@ -24,7 +24,7 @@ K12a - The existence of a range of coaching models and techniques, and related p
 
 K12b - Methods of goal setting, such as SMART goals, alignment of personal and organisational goals, and aspirational/dream goals
 
-# Skills
+## Skills
 
 S3 -Communication, including (but not limited to) descriptions of the coaching process and roles and responsibilities (including those related to boundaries and confidentiality), and the benefits of coaching in relation to the context of those receiving coaching
 
@@ -36,10 +36,10 @@ S5 -Stakeholder management, including a range of challenging and senior people, 
 
 S13 -Identifies energy shifts within a coaching context, enabling these to be aired and addressed and managed
 
-# Behaviours
+## Behaviours
 
 B3 -Act as an ambassador for a coaching mindset and positive approach to personal development
 
-# Listening to 
+## Listening to 
 
 [Aiken - Reclaim your city podcast 488](https://soundcloud.com/reclaim-your-city/reclaim-your-city-488-aiken)

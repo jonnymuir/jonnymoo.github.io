@@ -11,7 +11,7 @@ Hi Alban, welcome to the world of programming. If you are not Alban, whenever yo
 
 If you are neither Alban or Penny then we have a problem, especially if you are an evil robot.
 
-# Computers
+## Computers
 A computer computes. It can do many things like send stuff to your screen to be displayed, add up sums you can't be bothered to or help robots plan for world domination ([side note](https://en.wikipedia.org/wiki/Three_Laws_of_Robotics) - they should not be allowed to plan for world domination on their own).
 
 ## Programs

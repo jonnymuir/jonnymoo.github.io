@@ -5,7 +5,7 @@ title: Carbon Credits
 ---
 A brief introduction to carbon credits.
 
-# What is a carbon credit
+## What is a carbon credit
 
 A carbon credit is a tradable certificate.
 
@@ -15,34 +15,34 @@ Projects are run which generate credits. If you, as an organisation or an indivi
 
 Example: Pump 10 tonnes of CO2 into the atmosphere + buy 10 credits = neutral. Credits are then spent, you can't reuse them. 
 
-# What is a carbon project
+## What is a carbon project
 
 A carbon project is a project which produces credits by avoiding or removing emissions. Projects are typically nature based (e.g. planting trees, preserving wetlands) or technology based (e.g., direct air capture and storage technology).
 
-# Quality
+## Quality
 
 Quality refers to how certain you can be that the carbon project actually removed (or is going to remove) what it claimed.
 
-# Who issues a credit
+## Who issues a credit
 
 They are regulated by an internationally recognised carbon standard body. The United Nations has a big hand in it - [United Nations Carbon Offset Platform](https://unfccc.int/climate-action/united-nations-carbon-offset-platform). In the UK there is the [UK Emissions Trading Scheme](https://www.gov.uk/government/publications/uk-emissions-trading-scheme-markets/uk-emissions-trading-scheme-markets) 
 
 
-# Who buys them
+## Who buys them
 
 They are traded on carbon markets, typically bought by organisations.
 
-# Net Zero
+## Net Zero
 
 Net Zero means cutting green house gas emissions to as close to zero as possible, so that the environment can naturally re-absorb the remainder. [UN Net Zero definition](https://www.un.org/en/climatechange/net-zero-coalition)
 
-# Carbon Neutral
+## Carbon Neutral
 
 You can achieve Carbon Neutral by offsetting your GHG emissions with credits.
 
 Not the same as Net Zero. You cannot claim to be Net Zero by using offsets (buying carbon credits), you need to reduce your emissions.
 
-# Positives and Criticisms
+## Positives and Criticisms
 
 Offsets can play an important place in a climate strategy. Additionally carbon products / projects can (should) address concerns other than GHG removal and avoidance (e.g., positive impact on communities, addressing poverty).
 

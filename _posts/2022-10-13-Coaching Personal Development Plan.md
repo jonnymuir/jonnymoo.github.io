@@ -6,7 +6,7 @@ title: PDP
 
 Personal Development Plan based on initial skills scan for level 5 Coaching Professional
 
-# Contents
+## Contents
 
 [Knowledge](#knowledge)
 <br/>
@@ -17,7 +17,7 @@ Personal Development Plan based on initial skills scan for level 5 Coaching Prof
 [Functional Skills](#functional-skills)
 <br/>
 
-# Plan
+## Plan
 
 <style type="text/css">
 table {

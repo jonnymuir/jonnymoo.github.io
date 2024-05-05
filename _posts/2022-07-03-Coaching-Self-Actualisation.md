@@ -10,7 +10,7 @@ Discuss the theory of self-actualisation, such as Maslow and Herzberg, giving yo
 
 [(Perera, 2020)](https://www.simplypsychology.org/self-actualization.html) "Self-actualization is the complete realization of one's potential and the full development of one's ability and appreciation for life"
 
-### Context
+## Context
 
 The term self-actualisation was introduced by Kurt Goldstein. As a reaction to the psychology of Freud and Jung, Goldstein created a holistic theory which led into the [humanistic branch of psychology](https://www.simplypsychology.org/humanistic.html). Freud and Jung are psychoanalysts. This involves looking internally to explain negative aspects of a patients thoughts and behaviour or treat mental disorders. 
 
@@ -18,7 +18,7 @@ In contrast, Goldstein believes that the goal of every organism is to achieve so
 
 Carl Rogers limits self-actualisation to humans. To Rogers we achieve self-actualisation when our ideal self and actual self are in harmony (congruence). Self-actualising is the act of seeking to resolve tensions caused by incongruence through reflection and exploring potential possibilities to match the "real" and the "ideal".
 
-### Models
+## Models
 
 Abraham Maslow created a hierarchy of needs model with self-actualisation at the top. This model is widely taught and is the one that most people have heard of.
 
@@ -66,7 +66,7 @@ Reversal Theory - 8 motivations as lenses. Describes human nature in a dynamic w
 
 Looking at emotions as signals, motivation theory gives methods to decode them.
 
-### Views on models of use
+## Views on models of use
 
 The models and theory are interesting, and quite frankly overwhelming. There is a lot of content to take in between Freud and now. Some of it I have come across in design and business degrees, but not at a level that makes me a psychologist. I am scratching at the surface.
 
@@ -110,7 +110,7 @@ Group
 
 Other roles
 
-# Links
+## Links
 
 [https://www.simplypsychology.org/self-actualization.html](https://www.simplypsychology.org/self-actualization.html)
 
@@ -119,7 +119,7 @@ Other roles
 [https://worldofwork.io/2019/02/mcclellands-motivation-theory](https://worldofwork.io/2019/02/mcclellands-motivation-theory/#:~:text=McClelland's%20Acquired%20Needs%20Motivation%20Theory%20says%20that%20humans%20have%20three,blend%20of%20their%20specific%20needs.)
 
 
-# Listening to 
+## Listening to 
 
 [Tru thoughts presents unfold - 26 June 2022](https://www.mixcloud.com/truthoughts/tru-thoughts-presents-unfold-260622-with-meduulla-j-rocc-sharky/)
 
