@@ -7,7 +7,7 @@ image: mice-1500x500
 <div class="article_wrap">
 {% for post in paginator.posts %}
 <article>
-    <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+    <h2 class="post-title">{{ post.title }}</h2>
     {{ post.excerpt | markdownify }} 
     {% capture content_words %} 
       {{ post.content | number_of_words }} 
@@ -16,7 +16,7 @@ image: mice-1500x500
       {{ post.excerpt | number_of_words }} 
     {% endcapture %} 
     {% if excerpt_words != content_words %}
-    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time><a class="post-more" href="{{ post.url }}">Read more</a>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time><a class="post-more" href="{{ post.url }}">More about {{ post.title }}</a>
     {% endif %}
 </article>
 {% endfor %} 
