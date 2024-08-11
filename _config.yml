@@ -14,6 +14,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+include:
+  - .well-known/*
+
 collections:
   lessons:
     output: true
