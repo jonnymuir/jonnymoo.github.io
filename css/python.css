@@ -2,6 +2,7 @@
 
 .python-console #contents {
   position: relative;
+  display: flex;
 }
 
 .python-console #editor { 
