@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="post">
+  <div><a href="/katas">Back to kata list</a></div>
+  {{ content }}
+</div>
+<div>
+{% assign katas = site.katas | sort: 'date' %}
+  {% assign lastkatatitle = '' %}
+  {% for kata in katas %}
+  {% if kata.status != 'draft'  %}
+  {% if lastkatatitle == page.title %}
+  <a href='{{ kata.url }}'>Next kata</a>
+  {% endif %}
+  {% assign lastkatatitle = kata.title %}
+  {% endif %}
+  {% endfor %}
+</div>

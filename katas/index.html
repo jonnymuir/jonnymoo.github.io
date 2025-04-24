@@ -1,0 +1,25 @@
+---
+layout: default
+title: Katas
+image: kata
+---
+
+<div class="article_wrap">
+{% assign katas = site.katas | sort: 'date' | reverse %}
+{% for kata in katas %}
+{% if kata.status != 'draft'  %}
+<article>
+    <a class="post-title" href="{{ kata.url }}">{{ kata.title }}</a>
+    {{ kata.excerpt | markdownify }} 
+    {% capture content_words %} 
+      {{ kata.content | number_of_words }} 
+    {% endcapture %} 
+    {% capture excerpt_words %} 
+      {{ kata.excerpt | number_of_words }} 
+    {% endcapture %} 
+    <time datetime="{{ kata.date | date_to_xmlschema }}">{{ post.kata | date: "%b %-d, %Y" }}</time><a class="post-more" href="{{ kata.url }}">Teach me more</a>
+</article>
+{% endif %}
+{% endfor %} 
+</div>
+<div><p>Photo by <a href="https://unsplash.com/@jsnbrsc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jason Briscoe</a> on <a href="https://unsplash.com/photos/silhouette-of-person-kicking-on-mid-air-HN_4K2diUWs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p></div>

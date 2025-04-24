@@ -20,3 +20,5 @@ include:
 collections:
   lessons:
     output: true
+  katas:
+    output: true
