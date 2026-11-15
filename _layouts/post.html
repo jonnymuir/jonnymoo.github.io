@@ -2,6 +2,7 @@
 layout: default
 ---
 <p class="meta">{{ page.date | date_to_string }}</p>
+{% if page.unlisted %}<p class="meta"><strong>Unreleased:</strong> this post isn't listed on the blog yet.</p>{% endif %}
 
 <div class="post">
   {{ content }}

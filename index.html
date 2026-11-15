@@ -6,6 +6,7 @@ image: mice-1500x500
 
 <div class="article_wrap">
 {% for post in paginator.posts %}
+{% if post.unlisted %}{% continue %}{% endif %}
 <article>
     <h2 class="post-title">{{ post.title }}</h2>
     {{ post.excerpt | markdownify }} 

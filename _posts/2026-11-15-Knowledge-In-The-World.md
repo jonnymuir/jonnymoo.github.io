@@ -2,6 +2,7 @@
 layout: post
 title: Knowledge in the World
 mermaid: true
+unlisted: true
 ---
 What a surgical team, a skunk works and a good README have in common, and why the content that makes a great AI harness is the same content that makes a great team.
 
