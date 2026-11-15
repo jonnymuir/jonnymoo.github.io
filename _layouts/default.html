@@ -32,4 +32,10 @@
         </footer>
 	</body>
     <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+    {% if page.mermaid %}
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+    </script>
+    {% endif %}
 </html>
