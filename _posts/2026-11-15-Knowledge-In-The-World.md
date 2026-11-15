@@ -1,5 +1,6 @@
 ---
 layout: post
+image: surgical-team
 title: Knowledge in the World
 mermaid: true
 unlisted: true
