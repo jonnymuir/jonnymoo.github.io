@@ -15,7 +15,7 @@ This post is about why that happens, and what it means for how a small team of p
 
 # Every session is the agent's first day
 
-Don Norman, in *The Design of Everyday Things*, distinguishes between **knowledge in the head** and **knowledge in the world**. Knowledge in the head is what you have to remember. Knowledge in the world is what the environment tells you: the label on the switch, the shape of the handle, the door that only opens one way. Good design moves knowledge out of heads and into the world, so people succeed without having to remember.
+Don Norman, in *The Design of Everyday Things*, distinguishes between knowledge in the head and knowledge in the world. Knowledge in the head is what you have to remember. Knowledge in the world is what the environment tells you: the label on the switch, the shape of the handle, the door that only opens one way. Good design moves knowledge out of heads and into the world, so people succeed without having to remember.
 
 An AI agent is the purest case there is. It arrives with an enormous amount of general skill and absolutely no memory of your repository. Every session is its first day. If the knowledge it needs isn't somewhere it will read, or enforced by something it can't skip, it doesn't exist.
 
@@ -42,19 +42,19 @@ When people first start working with agents, there's a temptation to write speci
 
 The qualities that make guidance work for an agent are exactly the qualities that make it work for a person:
 
-- **Current.** It says what's true now. Not "we originally did X but then...". History belongs in commit messages.
-- **Located.** It's in the file you open for the task, not a wiki three clicks away.
-- **Specific.** A command that runs. A path that exists. A number with a unit. "Keep files small" is advice. "C# files 400 lines, enforced by the size script" is a rule.
-- **Reasoned.** It says why. Someone who knows why can handle the case the rule didn't anticipate.
-- **Plain.** Short sentences, active voice, no jargon.
+- Current. It says what's true now. Not "we originally did X but then...". History belongs in commit messages.
+- Located. It's in the file you open for the task, not a wiki three clicks away.
+- Specific. A command that runs. A path that exists. A number with a unit. "Keep files small" is advice. "C# files 400 lines, enforced by the size script" is a rule.
+- Reasoned. It says why. Someone who knows why can handle the case the rule didn't anticipate.
+- Plain. Short sentences, active voice, no jargon.
 
 When an agent misreads something, the fix is almost never a louder instruction for the agent. It's clearer writing for everyone, or a check that makes the rule impossible to break. The content that makes a good harness and the content that makes a good team turn out to be the same content.
 
 # A surgical team, finally affordable
 
-In 1975 Fred Brooks wrote *The Mythical Man-Month*, and in it he described Harlan Mills's idea of the **surgical team**. One surgeon does the critical design and the critical code. Everyone else exists to make that one person effective: a copilot who can do any part of the job, a toolsmith who builds what the surgeon needs, a tester, an editor for the documentation, a "language lawyer" who knows every corner of the language, a clerk who keeps the records.
+In 1975 Fred Brooks wrote *The Mythical Man-Month*, and in it he described Harlan Mills's idea of the surgical team. One surgeon does the critical design and the critical code. Everyone else exists to make that one person effective: a copilot who can do any part of the job, a toolsmith who builds what the surgeon needs, a tester, an editor for the documentation, a "language lawyer" who knows every corner of the language, a clerk who keeps the records.
 
-Brooks's reason was **conceptual integrity**, which he called the most important consideration in system design. A system that reflects one coherent set of ideas beats one that reflects many good but uncoordinated ones.
+Brooks's reason was conceptual integrity, which he called the most important consideration in system design. A system that reflects one coherent set of ideas beats one that reflects many good but uncoordinated ones.
 
 The catch was cost: roughly ten people to support one. Most organisations went the other way, with bigger teams, more coordination, and Brooks's own law waiting for them (adding people to a late project makes it later).
 
@@ -72,7 +72,7 @@ Agents change the arithmetic. The supporting roles map almost one for one:
 
 But there's a trap. Agents are fast enough to produce an enormous amount of plausible, inconsistent code. A surgeon with ten quick assistants and no shared system gets ten different operations. So the design has to be held somewhere, and written down where every agent will read it. Knowledge in the world isn't a nice-to-have for this kind of team. It's what makes conceptual integrity possible at all.
 
-Brooks's later essay, *No Silver Bullet*, separated **essential** complexity (the genuinely hard problem: what to build, how the parts fit) from **accidental** complexity (the effort of expressing it). Agents strip away a huge amount of the accidental. What's left is the essential, and that's exactly the surgeon's job.
+Brooks's later essay, *No Silver Bullet*, separated essential complexity (the genuinely hard problem: what to build, how the parts fit) from accidental complexity (the effort of expressing it). Agents strip away a huge amount of the accidental. What's left is the essential, and that's exactly the surgeon's job.
 
 # The skunk works spirit
 
@@ -91,7 +91,7 @@ The motto was "be quick, be quiet, be on time". And here's the bit that matters:
 
 "Quality" is a slippery word. "Excellence" is subjective and hard to measure. Its absence is easy to see: the request that hangs, the test that fails one run in twenty, the doc that sends you the wrong way, the release step that lives in one person's head.
 
-A lot of the people who shaped how we think about quality found it more useful to hunt down non-quality. Genichi Taguchi defined quality as the loss a product imparts to society after it ships. Taiichi Ohno at Toyota went after *muda*, waste, anything that interrupts flow. Noriaki Kano called the baseline layer "must-be" quality: the brakes, not the cup holders. Dieter Rams asked that good design be unobtrusive.
+A lot of the people who shaped how we think about quality found it more useful to hunt down non-quality. Genichi Taguchi defined quality as the loss a product imparts to society after it ships. Taiichi Ohno at Toyota went after *muda*. It is usually translated as waste, but no English word fits exactly: it is closer to futility, effort that adds nothing and gets in the way of the work. Noriaki Kano called the baseline layer "must-be" quality: the brakes, not the cup holders. Dieter Rams asked that good design be unobtrusive.
 
 Put together, they give a definition sharp enough to act on:
 
@@ -101,13 +101,13 @@ Or more simply, a system with nothing in the way.
 
 The beauty of defining it negatively is that it's actionable. You can't tell a team, or an agent, how to "create excellence". But anyone on the ground can point at the thing that's broken, clunky or in the way, and fix it.
 
-W. Edwards Deming would add that most of those breakdowns belong to the **system**, not the person. That's liberating when you work with agents. When an agent gets something wrong, the useful question isn't "how do I make it try harder?". It's "what in the system let that through, and what would have caught it?".
+W. Edwards Deming would add that most of those breakdowns belong to the system, not the person. That's liberating when you work with agents. When an agent gets something wrong, the useful question isn't "how do I make it try harder?". It's "what in the system let that through, and what would have caught it?".
 
 A few of Deming's ideas turn out to fit remarkably well:
 
-- **Cease dependence on inspection.** Build quality in. Analyzers that fail the build, budgets that fail before push, security scanners on every change. Review is then free to be about design.
-- **Eliminate slogans and exhortations.** "Be careful with security" changes nothing, for a person or an agent. "Every endpoint has an explicit authorisation policy, and a test proves an anonymous request is refused" does.
-- **Don't tamper.** Reacting to random variation makes it worse. Re-running a flaky test until it goes green, or adding a retry, hides the failure rate without changing it. Measure the rate, find the cause, change the system. A green re-run isn't a fix. It's a sample.
+- Cease dependence on inspection. Build quality in. Analysers that fail the build, budgets that fail before push, security scanners on every change. Review is then free to be about design.
+- Eliminate slogans and exhortations. "Be careful with security" changes nothing, for a person or an agent. "Every endpoint has an explicit authorisation policy, and a test proves an anonymous request is refused" does.
+- Don't tamper. Reacting to random variation makes it worse. Re-running a flaky test until it goes green, or adding a retry, hides the failure rate without changing it. Measure the rate, find the cause, change the system. A green re-run isn't a fix. It's a sample.
 
 # Tests should state behaviour, not mirror code
 
@@ -117,9 +117,9 @@ A test that states behaviour ("after saving, the item can be read back with the 
 
 A few practices fell out of this that I now wouldn't work without:
 
-- **Pin behaviour before you change it.** Before moving to a new major version of a library, write tests of what it does today, see them pass on the old version, then make them pass on the new one. When I did this for a CSV library, it caught five behaviours that would otherwise have changed silently.
-- **Prove your checks can fail.** If you compare old and new output and it comes back identical, break the new version on purpose and check the comparison notices. Otherwise "identical" might just mean "not actually comparing".
-- **Make rare bugs certain.** An intermittent database hang that happened once in twenty runs became a test that fails every time, by injecting a competing write at exactly the worst moment. Now the fix is proven, and it can't quietly come back.
+- Pin behaviour before you change it. Before moving to a new major version of a library, write tests of what it does today, see them pass on the old version, then make them pass on the new one. When I did this for a CSV library, it caught five behaviours that would otherwise have changed silently.
+- Prove your checks can fail. If you compare old and new output and it comes back identical, break the new version on purpose and check the comparison notices. Otherwise "identical" might just mean "not actually comparing".
+- Make rare bugs certain. An intermittent database hang that happened once in twenty runs became a test that fails every time, by injecting a competing write at exactly the worst moment. Now the fix is proven, and it can't quietly come back.
 
 # Guardrails are how trust scales
 
